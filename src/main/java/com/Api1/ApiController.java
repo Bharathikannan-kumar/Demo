@@ -17,7 +17,7 @@ public class ApiController {
 
 	@GetMapping(value = "/getPrice")
 	public Integer getPrice() {
-		return 5000;
+		return 5000+500;
 	}
 
 	@Autowired
